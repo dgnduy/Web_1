@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="zxx" xmlns:th="http://www.thymeleaf.org"  xmlns:sec="http://www.thymeleaf.org/extras/spring-security" th:replace="~{web/layout/layout :: layout(~{::title},~{:: #css},~{:: #content},~{:: #js})}">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Male_Fashion Template">
+    <meta name="keywords" content="Male_Fashion, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Đặc Sản Xanh | Thông Tin Về Chúng Tôi</title>
+
+    <th:block id="css"></th:block>
+</head>
+
+<body>
+    <th:block id="content">
+        <!-- Breadcrumb Section Begin -->
+        <section class="breadcrumb-option">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="breadcrumb__text">
+                            <h4>About Us</h4>
+                            <div class="breadcrumb__links">
+                                <a href="./index.html">Trang Chủ</a>
+                                <span>Vể Chúng Tôi</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Breadcrumb Section End -->
+
+        <!-- About Section Begin -->
+        <section class="about spad">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="about__pic">
+                            <img src="/web-assets/img/about/dacsan.jpeg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-6">
+                        <div class="about__item">
+                            <h4>Chúng tôi là ai ?</h4>
+                            <p>Chúng tôi tự hào là cầu nối giữa bạn và những sản phẩm truyền thống
+                                mang đậm nét văn hóa dân tộc Việt Nam</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6">
+                        <div class="about__item">
+                            <h4>Chúng tôi làm gì ?</h4>
+                            <p>Chúng tôi mang đến những sản phẩm truyền thống, tiện lợi, góp phần bảo
+                                tồn giá trị văn hóa và truyền thống dân tộc.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6">
+                        <div class="about__item">
+                            <h4>Tại sao lại là chúng tôi ?</h4>
+                            <p>Chúng tôi tự hào tận tâm cung cấp những sản phẩm chất lượng cao, độc đáo, đậm nét văn hóa truyền thống. Mỗi
+                                món đặc sản không chỉ là hương vị tinh tế mà còn chứa đựng câu chuyện ý nghĩa từ các vùng miền trên
+                                khắp đất nước.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About Section End -->
+
+        <!-- Testimonial Section Begin -->
+        <section class="testimonial">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-6 p-0">
+                        <div class="testimonial__text">
+                            <span class="icon_quotations"></span>
+                            <p>“Dưới bóng hình quê hương, mỗi đặc sản không chỉ là hương vị mà còn là ký ức và niềm tự hào của dân tộc.”
+                            </p>
+                            <span class="icon_quotations"></span>
+
+<!--                            <div class="testimonial__author">-->
+<!--                                <div class="testimonial__author__pic">-->
+<!--                                    <img src="/web-assets/img/about/testimonial-author.jpg" alt="">-->
+<!--                                </div>-->
+<!--                                <div class="testimonial__author__text">-->
+<!--                                    <h5>Augusta Schultz</h5>-->
+<!--                                    <p>Fashion Design</p>-->
+<!--                                </div>-->
+<!--                            </div>-->
+                        </div>
+                    </div>
+                    <div class="col-lg-6 p-0">
+                        <div class="testimonial__pic set-bg" data-setbg="img/about/testimonial-pic.jpg"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Testimonial Section End -->
+
+        <!-- Counter Section Begin -->
+        <section class="counter spad">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="counter__item">
+                            <div class="counter__item__number">
+                                <h2 class="cn_num">102</h2>
+                            </div>
+                            <span>Khách <br />Hàng</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="counter__item">
+                            <div class="counter__item__number">
+                                <h2 class="cn_num">63</h2>
+                            </div>
+                            <span>Tỉnh <br />Thành</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="counter__item">
+                            <div class="counter__item__number">
+                                <h2 class="cn_num">3</h2>
+                            </div>
+                            <span>Miền <br />Đất Nước</span>
+                        </div>
+                    </div>
+<!--                    <div class="col-lg-3 col-md-6 col-sm-6">-->
+<!--                        <div class="counter__item">-->
+<!--                            <div class="counter__item__number">-->
+<!--                                <h2 class="cn_num">98</h2>-->
+<!--                                <strong>%</strong>-->
+<!--                            </div>-->
+<!--                            <span>Happy <br />Customer</span>-->
+<!--                        </div>-->
+<!--                    </div>-->
+                </div>
+            </div>
+        </section>
+        <!-- Counter Section End -->
+
+        <!-- Team Section Begin -->
+        <section class="team spad">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-title">
+                            <span>Đội của chúng tôi</span>
+                            <h2>Các thành viên</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="team__item">
+                            <img src="/web-assets/img/about/MESSI.jpg" alt="">
+                            <h4>Nguyễn Duy Quý</h4>
+                            <span>FrontEnd</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="team__item">
+                            <img src="/web-assets/img/about/MESSI.jpg" alt="">
+                            <h4>Đào Hoàng Hải</h4>
+                            <span>BackEnd</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="team__item">
+                            <img src="/web-assets/img/about/MESSI.jpg" alt="">
+                            <h4>Dương Ngọc Duy</h4>
+                            <span>Data</span>
+                        </div>
+                    </div>
+<!--                    <div class="col-lg-3 col-md-6 col-sm-6">-->
+<!--                        <div class="team__item">-->
+<!--                            <img src="/web-assets/img/about/MESSI.jpg" alt="">-->
+<!--                            <h4>Lucy Myers</h4>-->
+<!--                            <span>Delivery</span>-->
+<!--                        </div>-->
+<!--                    </div>-->
+                </div>
+            </div>
+        </section>
+        <!-- Team Section End -->
+
+        <!-- Client Section Begin -->
+        <section class="clients spad">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-title">
+                            <span>Đối tác</span>
+                            <h2>Các đối tác kết hợp</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-4 col-sm-4 col-6">
+                        <a href="#" class="client__item"><img src="/web-assets/img/clients/client-1.png" alt=""></a>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-4 col-6">
+                        <a href="#" class="client__item"><img src="/web-assets/img/clients/client-2.png" alt=""></a>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-4 col-6">
+                        <a href="#" class="client__item"><img src="/web-assets/img/clients/client-3.png" alt=""></a>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-4 col-6">
+                        <a href="#" class="client__item"><img src="/web-assets/img/clients/client-4.png" alt=""></a>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-4 col-6">
+                        <a href="#" class="client__item"><img src="/web-assets/img/clients/client-5.png" alt=""></a>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-4 col-6">
+                        <a href="#" class="client__item"><img src="/web-assets/img/clients/client-6.png" alt=""></a>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-4 col-6">
+                        <a href="#" class="client__item"><img src="/web-assets/img/clients/client-7.png" alt=""></a>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-4 col-6">
+                        <a href="#" class="client__item"><img src="/web-assets/img/clients/client-8.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Client Section End -->
+    </th:block>
+
+    <th:block id="js"></th:block>
+</body>
+</html>
